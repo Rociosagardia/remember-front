@@ -1,0 +1,19 @@
+input[type=text],[type=tel],[type=email],[type=button],[type=password],[type=submit],[type=date],[type=time]  {
+    width: 100%;
+    padding: 10px 10px;
+    margin:5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #ffffff;
+  }
+  
+  input[type=button],[type=submit]{
+      background-color: #01635e;
+      font-family: 'Open Sans',sans-serif;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 500;
+      width: 100%;
+      padding:5px;
+      margin: 5px;
+  }

@@ -1,0 +1,13 @@
+.titulo{
+    font-family: 'Open Sans',Arial,sans-serif;
+    color: #01635e;
+    font-weight:700;
+    font-size: 24px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+.margin-titulo{
+    margin-top: -20%;
+}
+
