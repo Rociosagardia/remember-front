@@ -1,33 +1,31 @@
 $(document).ready(function(){
-    $('#iniciarSesion').on('click', function(e) {
+    $('#reiniciar').on('click', function(e) {
         e.preventDefault();
-        var email=$("#email").val();
-        console.log(email);
+ 
 
         var password=$("#password").val();
         console.log(password);
 
+        const urlSearchParams = new URLSearchParams(window.location.search);
+       const params = Object.fromEntries(urlSearchParams.entries());
+
         var settings = {
-            "url": "http://localhost:3000/auth/login",
+            "url": "http://localhost:3000/auth/reset",
             "method": "POST",
             "timeout": 0,
             "headers": {
               "Content-Type": "application/json"
             },
             "data": JSON.stringify({
-              "email": email,
+              "tempToken": params.tempToken,
               "password": password
             }),
           };
           
           $.ajax(settings).done(function (response) {
-            console.log(response)
-            localStorage.setItem("usuario", JSON.stringify(response));
-
-            alert("Login correcto")
-            window.location="usuarioLogueado.html"
-          }).fail(function(){
-              alert("correo o contraseña invalida")
+          
+            alert("Contraseña reiniciada correctamente")
+            window.location="login.html"
           })
         
 

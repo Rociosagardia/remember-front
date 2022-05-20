@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/font.css">
     <!-- js -->
-   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-   <script src="../js/registro.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="../js/registroAdulto.js"></script>
 
-    <title>Registro</title>
+    <title>Registro de adulto mayor</title>
 
 </head>
 
@@ -31,10 +31,10 @@
         </a>
     </header>
 
-    <form id="registro" method="post" action="#">
+    <form id="registroAdulto" method="post" action="#">
 
         <label>
-            <h2 class="titulo alinear-texto espacio">Registrar usuario</h2><br><br>
+            <h2 class="titulo alinear-texto espacio">Registro de adulto mayor</h2><br><br>
         </label>
 
         <!-- nombre -->
@@ -52,29 +52,28 @@
         <!-- rut -->
 
         <label for="">Rut*</label>
-        <input type="text" name="rut" id="rut" placeholder="12345678-9" pattern="\d{3,8}-[\d|kK]{1}"
+        <input type="text" name="rut" id="rut" placeholder="12345678-9" required pattern="\d{3,8}-[\d|kK]{1}"
             title="Debe ser un Rut válido">
-
-        <!-- telefono -->
-
-        <label for="">Telefono</label>
-        <input type="tel" name="telefono" id="telefono" placeholder="987654321" pattern="[0-9]{9}"
-            title="Debe ser un numero válido">
-
 
         <!-- email -->
 
         <label for="">Email*</label>
-        <input type="email" name="email" id="email" placeholder="Correo@correo.cl" title="Debe ser un correo válido">
+        <input type="email" name="email" id="email" placeholder="Correo@correo.cl" required title="Debe ser un correo válido">
 
-        <!-- contraseña -->
+        <!-- direccion -->
 
-        <label for="">Contraseña*</label>
-        <input type="password" name="contraseña" id="password" placeholder="Contraseña"><br><br>
+        <label for="">Direccion*</label>
+        <input type="text" name="direccion" id="direccion" placeholder="Direccion" required 
+            title="Debe ingresar una direccion">
 
+        <!-- telefono -->
+
+        <label for="">Telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="987654321" required pattern="[0-9]{9}"
+            title="Debe ser un numero válido">
         <!-- crear cuenta -->
-  
-        <button id="crearCuenta" type="submit">Registrar usuario</button>
+
+        <button id="registrarAdulto" type="submit">Aceptar</button>
 
         <!-- inicio -->
 

@@ -1,7 +1,7 @@
 form {
     display: block;
     max-width: 500px;
-    max-height: 420px;
+    max-height: 450px;
     color: inherit;
     background-color: #bfe6e5;
     opacity: 0.9;
@@ -52,4 +52,14 @@ fieldset{
     display: block;
     margin: auto;
     
+}
+
+.selector{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size:13px;
+	display: block;
+	width: 90%;
+    height: 40px;
+	
 }

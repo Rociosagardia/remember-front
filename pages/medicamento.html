@@ -13,60 +13,36 @@
     <link rel="stylesheet" href="../css/label.css">
     <link rel="stylesheet" href="../css/input.css">
     <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/font.css">
 
-    <title>Medicamento</title>
+    <title>Ficha medica</title>
 
 </head>
+
 
 <body>
 
     <header>
-        
+
         <a href="home.html">
             <img class="img-logo" src="../img/RememberMeLogo2.png" alt="" srcset="">
         </a>
     </header>
 
+
     <form name="registro" method="post" action="#">
 
-        <label>
-            <h1 class="titulo alinear-texto">Ingresar medicamento</h1>
-        </label>
+        <fieldset>
+            <h2 class="titulo alinear-texto espacio">Ficha medica</h2>
+        </fieldset>
 
-        <!-- nombre -->
-
-        <label for="">Nombre*</label>
-        <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z0-9]{3,10}"
-            title="Debe ingresar un medicamento">
-
-        <!-- dosis -->
-
-        <label for="">Dosis*</label>
-        <input type="text" name="dosis" id="dosis" required pattern="[A-Za-z0-9]{3,10}" title="Debe ingresar una dosis">
-
-        <!-- horario -->
-
-        <label for="">Horario*</label>
-        <input type="time" name="horario" id="horario" pattern="" title="Debe ingresar horario">
-
-        <!-- fecha de inicio -->
-
-        <label for="">Fecha de inicio*</label>
-        <input type="date" name="fehaInicio" id="fechaInicio" pattern="" title="Debe ingresar un fecha de inicio">
-
-
-        <!-- fecha de termino -->
-
-        <label for="">Fecha de termino*</label>
-        <input type="date" name="fechaTermino" id="fechaTermino" title="Debe fecha de termino"><br><br>
-
-        <!-- aceptar -->
-
-        <input type="submit" value="Aceptar">
+        <fieldset>
+            <h3 class="h4 titulo espacio">Antecedentes medicos</h3>
+        </fieldset>
 
         <!-- inicio -->
-        <a href="../pages/home.html">Volver al incio</a>
+        <a class="a" href="../pages/home.html">Volver al incio</a>
 
     </form>
 

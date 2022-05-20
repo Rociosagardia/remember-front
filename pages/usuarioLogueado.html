@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../css/input.css">
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/font.css">
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="../js/usuarioLogueado.js"></script>
@@ -30,14 +31,29 @@
             <img class="img-logo" src="../img/RememberMeLogo2.png" alt="" srcset="">
         </a>
     </header>
-
     <form action="#">
 
-        <label>Hola 
-            <span id="nombreUsuario"></span>
-        </label>
+        <fieldset>
+            <h2  class="titulo centro espacio">Bienvenido</h2>
+            <h2 class="titulo centro espacio" id="nombreUsuario"></h2>
+        </fieldset>
 
+
+        <fieldset>
+            <h4 class="espacio h4">Selecciona la opcion que necesites</h4>
+        </fieldset>
+
+    
+
+        <select class="selector" id="selector" name="selector"><br><br><br><br>
+            <option value="registrarAdulto">Registrar adulto  mayor</option>
+            <option value="fichaMedica">Ficha medica</option><br><br><br><br>
+        </select>
+
+        <button id="aceptarSelector" type="submit">Aceptar</button>
     </form>
+
+
 
 </body>
 

@@ -15,12 +15,11 @@
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/header.css">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="../js/reiniciar.js"></script>
 
-     <!-- js -->
-     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-     <script src="../js/recuperar.js"></script>
- 
-    <title>recuperar contraseña</title>
+    <title>reinciar</title>
 </head>
 
 <body>
@@ -31,18 +30,27 @@
         </a>
     </header>
 
-    <form name="registro" method="post" action="#">
-        
-        <!-- email -->
+    <form name="reinciar" method="post" action="#">
 
-        <label for="">Email*</label>
-        <input type="email" name="email" id="email" title="Debe ser un correo válido">
+        <label>
+            <h1 class="titulo alinear-texto">Reiniciar contraseña</h1>
+        </label>
 
-       
-        <button id="recuperar" type="submit">Recuperar Contraseña</button>
+    
+        <!-- contraseña -->
+
+        <label for="">contraseña*</label>
+        <input type="password" name="contraseña" id="password" title="">
+
+        <!-- reiniciar contraseña -->
+
+        <button id="reiniciar" type="submit">Reiniciar contraseña</button>
+    
+        <!-- recuperar contraseña -->
+
+        <a class="a" href="../pages/recuperarContraseña.html">Olvide mi contraseña</a>
 
     </form>
-
 
 </body>
 

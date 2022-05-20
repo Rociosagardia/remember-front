@@ -4,4 +4,22 @@ $(document).ready(function() {
     console.log(usuario);
     $('#nombreUsuario').html(usuario.nombre);
 
+    
+    $('#aceptarSelector').on('click', function(e) {
+        e.preventDefault();
+        var selector=$("#selector").val();
+        console.log(selector);
+        if(selector === "registrarAdulto"){
+            alert("haz seleccionado registrar un adulto")
+            window.location="registroAdultoMayor.html"
+        }
+        else{
+            alert("haz seleccionado registrar ver una ficha médica")
+            window.location="medicamento.html"
+        }
+         
+            
+        
+    })
+
 });

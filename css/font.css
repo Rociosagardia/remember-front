@@ -10,4 +10,17 @@
 .margin-titulo{
     margin-top: -20%;
 }
+.margin-boton{
+    margin-left: 10%;
+}
+
+.espacio{
+    letter-spacing: 1px;
+}
+
+.h4{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
 

@@ -20,11 +20,11 @@ $(document).ready(function() {
         var telefono=$("#telefono").val();
         console.log(telefono);
 
-        var contraseña=$("#contraseña").val();
-        console.log(contraseña);
+        var password=$("#password").val();
+        console.log(password);
 
         var settings = {
-            "url": "http://localhost:3000/usuarios",
+            "url": "http://localhost:3000/auth/register",
             "method": "POST",
             "timeout": 0,
             "headers": {
@@ -36,7 +36,7 @@ $(document).ready(function() {
               "apellido": apellido,
               "telefono": telefono,
               "email": email,
-              "contraseña": contraseña
+              "password": password
             }),
           };
           
