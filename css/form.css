@@ -1,4 +1,16 @@
-form {
+.form1 {
+    display: block;
+    max-width: 500px;
+    max-height: 400px;
+    color: inherit;
+    background-color: #bfe6e5;
+    opacity: 0.9;
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+    border-radius: 50px;
+}
+.form2 {
     display: block;
     max-width: 500px;
     max-height: 450px;
@@ -10,6 +22,8 @@ form {
     padding: 100px;
     border-radius: 50px;
 }
+
+
 .alinear-texto{
     text-align: center;
     margin-top: -70px;
