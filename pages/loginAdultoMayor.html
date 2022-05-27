@@ -18,45 +18,37 @@
     <link rel="stylesheet" href="../css/font.css">
     <!-- js -->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/loginAdultoMayor.js"></script>
 
    
 
-    <title>login</title>
+    <title>Login Adulto Mayor</title>
 </head>
 
 <body class="body1">
     <header>
 
         <a href="home.html">
-            <img class="img-logo" src="../img/RememberMeLogo2.png" alt="" srcset="">
+            <img class="img-logo2" src="../img/RememberMeLogo2.png" alt="" srcset="">
         </a>
     </header>
 
-    <form class="form2" name="login" method="post" action="#">
+    <form class="form3" name="loginAdultoMayor" method="post" action="#">
 
-        <fieldset>
-            <h2 class="titulo espacio">Iniciar sesión</h2>
+        <fieldset  class="titulo5">
+            <h2 class="margin-top">Iniciar sesión</h2><br>
+            <h4>Ingrese su rut para activar los recordatorios</h4>
         </fieldset>
 
-        <!-- email -->
+        <!-- rut -->
 
-        <label for="">Email*</label>
-        <input type="email" name="email" id="email" title="Debe ser un correo válido" placeholder="Correo@correo.cl"
-            required>
-
-        <!-- contraseña -->
-
-        <label for="">contraseña*</label>
-        <input type="password" name="contraseña" id="password" title="" placeholder="Contraseña" required>
+        <label class="titulo6" for="">Rut*</label>
+        <input class="input1" type="text" name="rut" id="rut" title="Debe ingresar un rut" placeholder="Ingrese su rut"
+        required>
 
         <!-- iniciar sesion -->
 
-        <button id="iniciarSesion" type="submit">Iniciar sesion</button>
-
-        <!-- recuperar contraseña -->
-
-        <a class="a" href="../pages/recuperarContraseña.html">Olvide mi contraseña</a>
+        <button class="input2" id="iniciarSesionAdulto" type="submit">Iniciar sesion</button>
 
     </form>
 
