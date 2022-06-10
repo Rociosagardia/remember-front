@@ -8,9 +8,11 @@ nav{
 }
 
 .img-logo2{
-    width: 25%;
-    height: 12%;
+    width: 23%;
+    height: 10%;
     max-block-size: 100px;
     margin-left: 37%;
+    margin-bottom: 1%;
+    margin-top: -10px;
 }
 

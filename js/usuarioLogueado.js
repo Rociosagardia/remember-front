@@ -14,8 +14,8 @@ $(document).ready(function() {
             window.location="registroAdultoMayor.html"
         }
         else{
-            alert("haz seleccionado registrar medicamento")
-            window.location="medicamento2.html"
+            alert("haz seleccionado ficha adulto mayor")
+            window.location="fichaAdultoMayor.html"
         }
          
             

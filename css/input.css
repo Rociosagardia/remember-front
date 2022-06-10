@@ -1,45 +1,58 @@
-input[type=text],[type=tel],[type=email],[type=button],[type=password],[type=submit],[type=date],[type=time]  {
-    width: 100%;
-    padding: 10px 10px;
-    margin:5px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border-color: #ffffff;
-  }
-  .input1{
-    width: 100%;
-    padding: 10px 10px;
-    margin:5px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border-color: #000000;
-    height: 80px;
-    font-size: 24px;
-  }
+input[type=text],
+[type=tel],
+[type=email],
+[type=button],
+[type=password],
+[type=submit],
+[type=date],
+[type=time] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: #ffffff;
+}
 
-  .input2{
-    background-color: #01635e;
-    font-family: 'Open Sans',sans-serif;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 500;
-    width: 100%;
-    padding:0px;
-    margin: 5px;
-    height: 80px;
-    font-size: 160px;
-    font-weight: 500px;
-    letter-spacing: 1px;
-  }
-  
-  input[type=button],[type=submit]{
-      background-color: #01635e;
-      font-family: 'Open Sans',sans-serif;
-      color: #ffffff;
-      font-size: 18px;
-      font-weight: 500;
-      width: 100%;
-      padding:5px;
-      margin: 5px;
-  }
+.input1 {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: #000000;
+  height: 80px;
+  font-size: 24px;
+}
 
+.input2 {
+  background-color: #01635e;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  padding: 0px;
+  margin: 5px;
+  height: 80px;
+  font-size: 160px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+}
+
+.input3 {
+  width: 5%;
+  margin-left: 70%;
+}
+
+input[type=button],
+[type=submit] {
+  background-color: #01635e;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}

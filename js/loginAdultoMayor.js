@@ -21,7 +21,7 @@ $(document).ready(function(){
             localStorage.setItem("usuarioAdultoMayor", JSON.stringify(response));
 
             alert("Login correcto")
-            window.location="alertaAdultoMayor.html"
+            window.location="adultoMayorLogueado.html"
           }).fail(function(){
               alert("Rut invalido")
           })
