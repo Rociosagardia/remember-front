@@ -42,13 +42,29 @@
     letter-spacing: 1px;
     text-align: center;
     text-transform: capitalize;
-    margin-top: 0px;
-    
+    margin-top: 0px;  
+}
+
+.titulo4-2{
+    font-family: 'Open Sans',Arial,sans-serif;
+    color: #01635e;
+    font-weight:500;
+    font-size:24px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0px;  
 }
 
 .justificado{
     text-align: justify;
     margin-left: 15px;
+}
+
+.alineado-iz{
+    text-align: left;
+    margin-left: 30px;
+    text-transform: none;
 }
 
 

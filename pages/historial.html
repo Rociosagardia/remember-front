@@ -16,16 +16,17 @@
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/tabla.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
      <!-- JavaScript -->
-     <script src="../js/alerta.js"></script>
-     <link rel="stylesheet" href="../css/alerta.css">
+     <script src="../js/human.js"></script>
+     <script src="../js/historial.js"></script>
 
 
 
 
-    <title>Alerta</title>
+    <title>Historial de medcamentos</title>
 </head>
 
 <body class="body1">
@@ -33,23 +34,39 @@
         <a href="home.html">
             <img class="img-logo2" src="../img/RememberMeLogo2.png" alt="" srcset="">
         </a>
-        <!-- <input style="width:5%; margin-left: 1000px;"  type=button name=boton value=Cerrar onclick="window.close()"> -->
     </header>
 
     <form class="form3" >
+        
+        <fieldset>
+            <h2 class="titulo centro espacio">Historial de medicamentos de</h2>
+        </fieldset>
 
-        <h1 class="titulo3">Bienvenido</h1>
+        <fieldset>
+            <h2 class="titulo4-2" id="nombreUsuarioAdulto"></h2>
+        </fieldset>
+        
+        
+        <table class="historial" id="">
+            <tr>
+              <th>Medicamento</th>
+              <th>Fecha</th>
+              <th>Hora</th>
+            </tr>
+            <tr>
+              <td id="nombres"></td>
+              <td id="fechas"></td>
+              <td id="horas"></td>
+            </tr>
 
+          </table>
 
-        <h1 class="titulo4-1" id="nombreUsuarioAdulto"></h1>
+        
+        <a class="a margen-boton" href="../pages/fichaAdultoMayor.html">Volver</a>
 
-
-        <h1 class="titulo3 justificado">Proximos medicamentos:</h1>
-
-        <h1 class="titulo3" id="medicamentos"></h1>
-
-
+        
     </form>
+    
 
 </body>
 

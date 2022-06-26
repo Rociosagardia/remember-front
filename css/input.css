@@ -29,13 +29,11 @@ input[type=text],
   background-color: #01635e;
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 30px;
   width: 100%;
-  padding: 0px;
+  padding: -10px;
   margin: 5px;
   height: 80px;
-  font-size: 160px;
   font-weight: 500px;
   letter-spacing: 1px;
 }
