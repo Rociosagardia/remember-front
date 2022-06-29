@@ -6,59 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
-    <!-- css -->
-    <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/input.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/font.css">
-    <!-- js -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="../js/usuarioLogueado.js"></script>
-
+    <link rel="stylesheet" href="../css/final.css">
     <title>Usuario</title>
 
 </head>
 
 <body class="body1">
 
-    <header>
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <form class=" formulario-login fondo-login2" action="#">
+                <h1 class="titulo1">Bienvenido</h1>
+                <h1 class="titulo2" id="nombreUsuario"></h1>
+                <h1 class="titulo2">Selecciona una opcion</h1>
 
-        <a href="home.html">
-            <img class="img-logo" src="../img/RememberMeLogo2.png" alt="" srcset="">
-        </a>
-        <input style="width:5%; margin-left: 1000px;"  type=button name=boton value=Cerrar onclick="window.close()">
-    </header>
-    <form  class="form2" action="#">
+                <select class="selector" id="selector" name="selector">
+                    <option value="registrarAdulto">Registrar adulto mayor</option>
+                    <option value="fichaAdulto">Ficha adulto mayor</option>
+                </select>
 
-        <fieldset>
-            <h2  class="titulo centro espacio">Bienvenido</h2>
-            <h2 class="titulo centro espacio" id="nombreUsuario"></h2>
-        </fieldset>
-
-
-        <fieldset>
-            <h4 class="espacio h4">Selecciona la opcion que necesites</h4>
-        </fieldset>
-
-    
-        <!-- aca tiene que ir listaradulto mayor -->
-        
-        <!-- dentro de adulto mayor un boton para agregar medicamento -->
-        <select class="selector" id="selector" name="selector"><br><br><br><br>
-            <option class="selector" value="registrarAdulto">Registrar adulto  mayor</option>
-            <option class="selector" value="fichaAdulto">Ficha adulto mayor</option><br><br><br><br>
-        </select>
-
-        <button id="aceptarSelector" type="submit">Aceptar</button>
-        <a class="a" href="../pages/loginAdultoMayor.html">Iniciar sesion adulto mayor</a>
-    </form>
-
-
-
+                <button class="button4" id="aceptarSelector" type="submit">Aceptar</button>
+                <a href="../pages/loginAdultoMayor.html">Iniciar sesion adulto mayor</a>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
