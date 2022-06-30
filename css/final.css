@@ -79,9 +79,7 @@
     background-image: url(../img/fondo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-   
-
+    background-position: center; 
 }
 .formulario-login {
     padding: 100px;
@@ -94,6 +92,30 @@
     border-style:solid;
     border-color: #009b99;
     border-width: 0.8px;
+}
+.formulario-login2 {
+    padding: 100px;
+    height: 250px;
+    background: #fff;
+    border-radius: 40px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-style:solid;
+    border-color: #01635e;
+    border-width: 3px;
+}
+.formulario-alerta {
+    padding: 100px;
+    height: 400px;
+    background: #fff;
+    border-radius: 40px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-style:solid;
+    border-color: #01635e;
+    border-width: 3px;
 }
 .formulario-registro {
     padding: 100px;
@@ -160,6 +182,43 @@
     opacity: 0.8;
     letter-spacing: 1px;
 }
+
+.button1{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 5px;
+    text-align: center;
+    box-sizing:content-box;
+    border-radius: 10px;
+    border-color: #009b99;
+    background-color: #01635e;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 50px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+.button-alerta{
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 5px;
+    text-align: center;
+    box-sizing:content-box;
+    border-radius: 10px;
+    border-color: #009b99;
+    background-color: #01635e;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: -30px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
 .button2{
     width: 100%;
     height: 18px;
@@ -196,7 +255,7 @@
     opacity: 0.8;
 }
 .button4{
-    width: 150px;
+    width: 410px;
     height: 18px;
     padding: 10px 10px;
     margin: 5px;
@@ -205,13 +264,14 @@
     border-radius: 10px;
     border-color: #009b99;
     background-color: #009b99;
-    color: #131313;
+    color: #fff;
     font-family: 'Open Sans',sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 10px;
     opacity: 0.8;
 }
+
 
 
 
@@ -220,6 +280,18 @@
     color: #009b99;
     font-weight: 600;
     font-size: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    margin-top: -70px;
+    margin-bottom: 0px;
+    
+}
+.titulo1-2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #01635e;
+    font-weight: 600;
+    font-size: 38px;
     letter-spacing: 1px;
     text-align: center;
     width: 100%;
@@ -239,27 +311,53 @@
     margin-bottom: 0px;
     margin: 20px;
 }
-.titulo3 {
+.titulo2-2 {
     font-family: 'Open Sans', Arial, sans-serif;
     color: #01635e;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
     width: 100%;
     padding: -100px;
     margin-bottom: 0px;
+    margin: 20px;
+}
+.titulo3 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #01635e;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    padding: -100px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+.titulo3-2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #01635e;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    padding: -100px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-top: 20px;
 }
 .titulo4 {
     font-family: 'Open Sans', Arial, sans-serif;
     color: #01635e;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: 1px;
     text-align: center;
     width: 100%;
     padding: -100px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-top: 30px;
 }
 
@@ -292,10 +390,13 @@
     width: 85%;
     color: #01635e;
     font-family: 'Open Sans',sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     height: 40px;
     margin-top: 10px;
+    border-radius: 10px;
+    border-color: #01635e;
+    margin-bottom: 60px;
 }
 label{
     color: #01635e;
@@ -309,6 +410,45 @@ label{
     border-width: 0.5px;
     margin-bottom: 10px;
 }
+
+.label{
+    color: #01635e;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-left: 5px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    border-color: #01635e;
+    border-style: solid;
+    border-radius: 8px;
+    height: 30px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.label2{
+    color: #01635e;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-left: 5px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    border-color: #01635e;
+    border-style: solid;
+    border-radius: 8px;
+    height: 30px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+
 input[type=text],
 [type=tel],
 [type=email],
@@ -322,14 +462,18 @@ input[type=text],
   box-sizing:content-box;
   border-radius: 10px;
   border-color: #01635e;
-  font-family: 18px;
+  font-family:'Open Sans',sans-serif;
   height: 25px;
+}
+.input1{
+    height: 80px;
+    font-size: 36px;
 }
 
 a{
     color: #01635e;
     font-family: 'Open Sans',sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 30px;
     font-weight: 500;
     margin-top: 5px;
@@ -338,4 +482,30 @@ a{
     box-sizing:content-box;
 
 }
+.a2{
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-color: #009b99;
+    background-color: #009b99;
+    font-family: 'Open Sans',sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin:4px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    height:40px ;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid;
+    border-color: #009b99;
+    width: 100%;
+    margin: 15px;
+  }
+
 

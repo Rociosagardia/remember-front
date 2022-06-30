@@ -6,52 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
-    <!--css  -->
-    <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/input.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/font.css">
-    <!-- js -->
+    <link rel="stylesheet" href="../css/final.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="../js/loginAdultoMayor.js"></script>
-
-   
 
     <title>Login Adulto Mayor</title>
 </head>
 
 <body class="body1">
-    <header>
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
 
-        <a href="home.html">
-            <img class="img-logo2" src="../img/RememberMeLogo2.png" alt="" srcset="">
-        </a>
-    </header>
+            <form class="formulario-login2" name="loginAdultoMayor" method="post" action="#">
 
-    <form class="form3" name="loginAdultoMayor" method="post" action="#">
+                    <h1 class="titulo1-2">Iniciar sesión</h1>
+                    <h1 class="titulo2-2">Ingrese su rut</h1>
 
-        <fieldset  class="titulo5">
-            <h2 class="margin-top">Iniciar sesión</h2><br>
-            <h4 class="titulo6">Ingrese su rut para activar los recordatorios</h4>
-        </fieldset>
+                <!-- rut -->
 
-        <!-- rut -->
+                <h1 class="titulo3-2">Rut</h1>
+                <input class="input1" type="text" name="rut" id="rut" title="Debe ingresar un rut"
+                    placeholder="Ingrese su rut" required>
 
-        <label class="titulo6" for="">Rut*</label>
-        <input class="input1" type="text" name="rut" id="rut" title="Debe ingresar un rut" placeholder="Ingrese su rut"
-        required>
+                <!-- iniciar sesion -->
 
-        <!-- iniciar sesion -->
+                <button class="button1" id="iniciarSesionAdulto" type="submit">Iniciar sesion</button>
 
-        <button class="button-adulto" id="iniciarSesionAdulto" type="submit">Iniciar sesion</button>
-
-    </form>
-
+            </form>
+        </div>
 </body>
 
 </html>

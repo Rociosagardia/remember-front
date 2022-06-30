@@ -6,22 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
-    <!-- css -->
-    <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/input.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="../css/tabla.css">
-
+    <link rel="stylesheet" href="../css/final.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-     <!-- JavaScript -->
-     <script src="../js/human.js"></script>
-     <script src="../js/historial.js"></script>
+    <script src="../js/human.js"></script>
+    <script src="../js/historial.js"></script>
 
 
 
@@ -30,43 +18,40 @@
 </head>
 
 <body class="body1">
-    <header>
-        <a href="home.html">
-            <img class="img-logo2" src="../img/RememberMeLogo2.png" alt="" srcset="">
-        </a>
-    </header>
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
 
-    <form class="form3" >
-        
-        <fieldset>
-            <h2 class="titulo centro espacio">Historial de medicamentos de</h2>
-        </fieldset>
+            <form class="formulario-login">
+            
+                    <h1 class="titulo1">Historial de medicamentos de</h1>
 
-        <fieldset>
-            <h2 class="titulo4-2" id="nombreUsuarioAdulto"></h2>
-        </fieldset>
-        
-        
-        <table class="historial" id="">
-            <tr>
-              <th>Medicamento</th>
-              <th>Fecha</th>
-              <th>Hora</th>
-            </tr>
-            <tr>
-              <td id="nombres"></td>
-              <td id="fechas"></td>
-              <td id="horas"></td>
-            </tr>
+                    <h1 class="titulo4" id="nombreUsuarioAdulto"></h1>
 
-          </table>
 
-        
-        <a class="a margen-boton" href="../pages/fichaAdultoMayor.html">Volver</a>
+                <table class="historial" id="">
+                    <tr class="titulo3">
+                        <th>Medicamento</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                    </tr>
+                    <tr>
+                        <td id="nombres"></td>
+                        <td id="fechas"></td>
+                        <td id="horas"></td>
+                    </tr>
 
-        
-    </form>
-    
+                </table>
+
+
+                <a class="a margen-boton" href="../pages/fichaAdultoMayor.html">Volver al inicio</a>
+
+
+            </form>
+        </div>
 
 </body>
 
