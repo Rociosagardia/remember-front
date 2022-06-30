@@ -6,17 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../img/RememberMeLogo.png">
-    <!--css -->
-    <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/label.css">
-    <link rel="stylesheet" href="../css/input.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/font.css">
-
-    <!-- js -->
+    <link rel="stylesheet" href="../css/final.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="../js/registroMedicamento.js"></script>
 
@@ -26,59 +16,57 @@
 
 
 <body class="body1">
-
-    <header>
-
-        <a href="home.html">
-            <img class="img-logo" src="../img/RememberMeLogo2.png" alt="" srcset="">
-        </a>
-    </header>
-
-
-    <form class="form1" id="registroMedicamento" method="post" action="#">
-
-        <fieldset>
-            <h2 class="titulo alinear-texto espacio">Ingresar medicamento</h2>
-            <h4 class=" h4 espacio">Ingrese todos los campos obligatorios*</h4>
-        </fieldset>
+    <div class="grid-container">
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item fondo-header"></div>
+        <div class="grid-item fondo1"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
 
 
-        <!-- nombre -->
+            <form class="formulario-registro" id="registroMedicamento" method="post" action="#">
 
-        <label for="">Nombre*</label>
-        <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z0-9]{3,20}"
-            title="Debe ingresar un medicamento">
-
-        <!-- dosis -->
-
-        <label for="">Dosis*</label>
-        <input type="text" name="dosis" id="dosis" required title="Debe ingresar una dosis">
-
-        <!-- horario -->
-
-        <label for="">Horario*</label>
-        <input type="time" name="horario" id="horario" required pattern="" title="Debe ingresar horario">
-
-        <!-- fecha de inicio -->
-
-        <label for="">Fecha de inicio</label>
-        <input type="date" name="fechaInicio" id="fechaInicio" pattern="" title="Debe ingresar un fecha de inicio">
+                <h1 class="titulo1">Ingresar medicamento</h1>
+                <h1 class="titulo2">Ingrese todos los campos obligatorios*</h1>
 
 
-        <!-- fecha de termino -->
+                <!-- nombre -->
 
-        <label for="">Fecha de termino</label>
-        <input type="date" name="fechaTermino" id="fechaTermino" title="Debe fecha de termino"><br><br>
+                <label for="">Nombre*</label>
+                <input type="text" name="nombre" id="nombre" required pattern="[A-Za-z0-9]{3,20}"
+                    title="Debe ingresar un medicamento">
 
-        <!-- aceptar -->
+                <!-- dosis -->
 
-        <button id="ingresarMedicamento" type="submit">Aceptar</button>
+                <label for="">Dosis*</label>
+                <input type="text" name="dosis" id="dosis" required title="Debe ingresar una dosis">
 
-        <!-- inicio -->
-        <a class="a" href="../pages/home.html">Volver al incio</a>
+                <!-- horario -->
 
-    </form>
+                <label for="">Horario*</label>
+                <input type="time" name="horario" id="horario" required pattern="" title="Debe ingresar horario">
 
+                <!-- fecha de inicio -->
+
+                <label for="">Fecha de inicio</label>
+                <input type="date" name="fechaInicio" id="fechaInicio" pattern=""
+                    title="Debe ingresar un fecha de inicio">
+
+
+                <!-- fecha de termino -->
+
+                <label for="">Fecha de termino</label>
+                <input type="date" name="fechaTermino" id="fechaTermino" title="Debe fecha de termino"><br><br>
+
+                <!-- aceptar -->
+
+                <button class="button2" id="ingresarMedicamento" type="submit">Aceptar</button>
+
+                <!-- inicio -->
+                <a class="a" href="../index.html">Volver al incio</a>
+
+            </form>
+        </div>
 </body>
 
 </html>

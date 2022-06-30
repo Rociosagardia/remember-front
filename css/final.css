@@ -105,6 +105,18 @@
     border-color: #01635e;
     border-width: 3px;
 }
+.formulario-adulto {
+    padding: 100px;
+    height: 350px;
+    background: #fff;
+    border-radius: 40px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border-style:solid;
+    border-color: #01635e;
+    border-width: 3px;
+}
 .formulario-alerta {
     padding: 100px;
     height: 400px;
@@ -131,8 +143,23 @@
     border-width: 0.8px;
     border-radius: 40px;
     
-
 }
+.formulario-registro2 {
+    padding: 100px;
+    position: relative;
+    height: 600px;
+    background: #fff;
+    width: 550px;
+    margin: auto;
+    margin-top: 0px;
+    border-style:solid;
+    border-color: #009b99;
+    border-width: 0.8px;
+    border-radius: 40px;
+    overflow: auto;
+    
+}
+
 
 .fondo {
     background-image: url(../img/Home.png);
@@ -328,6 +355,18 @@
     color: #01635e;
     font-weight: 600;
     font-size: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    padding: -100px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+.titulo3-2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #01635e;
+    font-weight: 600;
+    font-size: 16px;
     letter-spacing: 1px;
     text-align: left;
     width: 100%;

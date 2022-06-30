@@ -30,8 +30,8 @@ $(document).ready(function () {
      
 
       // Example of rendering
-      str += "<p class='titulo3 justificado'> " + nombre + "</p>";
-      str += "<p class='titulo4-1 justificado' id='horario"+id+"'>....</p>";
+      str += "<p > " + nombre +  "</p>";
+      str += "<p id='horario"+id+"'>....</p>";
     
     }
     $("#medicamentos").html(str);
@@ -63,8 +63,8 @@ $(document).ready(function () {
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
       
-        document.getElementById("horario"+id).innerHTML = "Tomar en "+ hours + "h "
-        + minutes + "m " + seconds + "s ";
+        document.getElementById("horario"+id).innerHTML =  " en "+ hours + " horas "
+        + minutes + " minutos " + seconds + " segundos ";
       
         // Si llega a 0 pasa algo
         if (hours ==0 &&  minutes== 0  &&  seconds ==0 ) {

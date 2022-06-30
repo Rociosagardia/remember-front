@@ -27,7 +27,7 @@ $(document).ready(function () {
       
           $.ajax(settings).done(function (response) {
             console.log(response);
-            alert("Ingreso de historial ingresado correctamente")
+            alert("Medicamento registrado")
             window.location = "adultoMayorLogueado.html"
            
           });
